@@ -1,0 +1,182 @@
+.nav {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  flex-grow: 1;
+  vertical-align: middle;
+}
+
+.block1 {
+    flex:3;
+}
+.block2 {
+  text-align: center;
+}
+.CTA {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.item
+{
+	color: black;
+	font-size: 13px;
+	font-family: Arial;
+	text-align: center;
+	text-decoration: none;
+	padding:8px;
+}
+.Applications
+{
+	height:25px;
+	vertical-align: middle;
+	margin:10px;
+}
+.bouton1
+{
+	padding:10px 25px;
+	background-color:#1a73e8;
+	color:white;
+	text-decoration: none;
+	font-family: Arial;
+	font-size:13px;
+	border-radius: 5px;
+}
+.bouton1:hover{
+	background: #4886ec;
+}
+img.logo { 
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   height:92px;
+   width:272px;
+   object-fit:contain;
+   object-position:center bottom;
+   padding-top: 70px;
+}
+.formulaire
+{
+	display: flex;
+}
+.champ
+{
+	display:flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 600px;
+	height: 43px;
+	border-radius: 30px;
+	border: 1px solid #c3c3c4;
+}
+.champ
+{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    background-size: 20px;
+    padding-left: 27px; 
+}
+
+.champ:hover {
+	box-shadow: 0px 0px 0px #aaa;
+}
+.CTA2 
+{
+	display: flex;
+	justify-content:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bouton2
+{
+	padding: 10px 20px;
+	background-color:#f8f9fa;
+	color: #3b4043;
+	text-decoration: none;
+	font-family: Arial;
+	font-size:13px;
+	border-radius:5px;
+	border: 1px solid transparent;
+	margin:10px;
+}
+.bouton2:hover
+{
+	border: 1px solid transparent;
+}
+
+.bouton3
+{
+	padding: 10px 20px;
+	background-color:#f8f9fa;
+	color: #3b4043;
+	text-decoration: none;
+	font-family:Arial;
+	font-size:13px;
+	border-radius:5px;
+	border: 1px solid transparent;
+	margin:10px;
+}
+.bouton3:hover
+{
+	border: 1px solid #c3c3c4;
+}
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#f2f2f2;
+    font-family:Arial;
+    font-size:12px;
+    color:#6f757a;
+}
+.France
+{
+	padding-right: 50px;
+	padding-left: 20px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.ligne
+{
+	border-bottom:0.1px;
+	width: 100%;
+	border-color: #f1eff1;
+}
+.footer2
+{
+	display:flex;
+	justify-content: space-between;
+	justify-content: 
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	font-size:12px;
+}
+.footer2-block1; .footer2-block2; .footer2-block3; 
+{
+    flex: 1;
+}
+.item3
+{
+	color:#6f757a;
+	padding:5px;
+	text-decoration: none;
+}
+.item3:hover
+{
+text-decoration: underline;
+}
+.footer2-block2 {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: 15px 1px;
+    background-size: 12px; 
+    padding-left: 27px; 
+
+}
+
+
+
